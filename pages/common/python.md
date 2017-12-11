@@ -16,4 +16,14 @@
 
 - Run library module as a script (terminates option list):
 
-`python -m {{module}} {{arguments}}`
+`python -m {{module}} {{arguments}}`p
+
+- Start Python internernal http web server (python version >= 3.X.X):
+
+`python -m http.server 8000`
+
+- Start Python internernal http web server (python version <3.X,X):
+
+`python -m SimpleHTTPServer 8000`
+
+
